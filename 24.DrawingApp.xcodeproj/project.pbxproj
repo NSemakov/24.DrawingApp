@@ -36,6 +36,7 @@
 		84E5E4661B701DD40019A646 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E4501B701DD40019A646 /* thickness.png */; };
 		84E5E4671B701DD40019A646 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E4511B701DD40019A646 /* width.png */; };
 		84E5E4681B701DD40019A646 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E4521B701DD40019A646 /* Yellow.png */; };
+		84E5E46B1B70302C0019A646 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E46A1B70302C0019A646 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		84E5E4501B701DD40019A646 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
 		84E5E4511B701DD40019A646 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
 		84E5E4521B701DD40019A646 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		84E5E4691B70302C0019A646 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		84E5E46A1B70302C0019A646 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				84E5E41B1B701C960019A646 /* AppDelegate.m */,
 				84E5E41D1B701C960019A646 /* ViewController.h */,
 				84E5E41E1B701C960019A646 /* ViewController.m */,
+				84E5E4691B70302C0019A646 /* SettingsViewController.h */,
+				84E5E46A1B70302C0019A646 /* SettingsViewController.m */,
 				84E5E4201B701C960019A646 /* Main.storyboard */,
 				84E5E4231B701C960019A646 /* Images.xcassets */,
 				84E5E4251B701C960019A646 /* LaunchScreen.xib */,
@@ -319,6 +324,7 @@
 				84E5E41F1B701C960019A646 /* ViewController.m in Sources */,
 				84E5E41C1B701C960019A646 /* AppDelegate.m in Sources */,
 				84E5E4191B701C960019A646 /* main.m in Sources */,
+				84E5E46B1B70302C0019A646 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

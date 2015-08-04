@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SettingsViewController.h"
+@interface ViewController : UIViewController <SettingsViewControllerDelegate>
 
-@interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *tempDrawImage;
 @property (weak, nonatomic) IBOutlet UIImageView *mainImage;
 - (IBAction)pencilPressed:(id)sender;
